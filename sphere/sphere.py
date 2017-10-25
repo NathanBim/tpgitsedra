@@ -19,7 +19,13 @@ class Sphere(object):
         pass
 
     def diameter(self):
+<<<<<<< master
         return self.radius
+=======
+
+
+        return self.radius*2
+>>>>>>> local
         pass
 
     def dump(self, filename):
