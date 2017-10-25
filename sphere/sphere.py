@@ -6,12 +6,13 @@ class Sphere(object):
         self.radius = radius
         pass
 
+    STEP 2
     
     def __str__(self):
         return '%s(%s)' % (self.__class__.__name__, self.radius)
 
     def surface(self):
-        return 4.0 * 3.1416 * self.radius ** 2
+        return 4.0 * math.pi * self.radius ** 2
         pass
 
     def volume(self):
